@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://folhadonortepr.com.br/wp-content/uploads/2025/04/30a-edicao-Agrinho.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.imagem-central img {
+  width: 560px;
+  max-width: 90%;
+  margin-top: 20px;
+  border: 3px solid white;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formulario label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formulario button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.suporte {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.botoes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botoes button {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.botoes img {
+  display: none;
+  margin-top: 10px;
+  width: 300px;
+  border: 3px solid white;
+}
+
+.info-inferior {
+  margin-top: 40px;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}
